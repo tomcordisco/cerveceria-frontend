@@ -1,0 +1,90 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 20px;
+}
+
+.title {
+    font-family: 'Roboto';
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 35px;
+    letter-spacing: -0.699999988079071px;
+    text-align: left;
+    padding: 10px;
+}
+
+.carrousel {
+    display: flex;
+    overflow-x: auto; 
+    scroll-snap-type: x mandatory; 
+    gap: 16px; 
+    padding: 20px;
+    width: 100%; 
+}
+
+.element {
+    flex: 0 0 auto; 
+    width: 328px;
+    height: 191px;
+    background-color: #13132D;
+    scroll-snap-align: start; 
+    text-align: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.breweryName {
+    font-family: 'Roboto';
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    padding: 10px;
+}
+
+.breweryInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 0;
+}
+
+.image {
+    width: 71px;
+    height: 71px;
+    border-radius: 100%;
+    object-fit: cover;
+    padding: 5px;
+}
+
+.breweryText {
+    font-family: 'Roboto';
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    padding-left: 5px;
+}
+
+.breweryAdress{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px;
+}
+
+.viewMoreButton {
+    background: linear-gradient(90deg, #3540E8 0%, #E41AD6 100%);
+    width: 90%;
+    height: 34px;
+    gap: 0px;
+    border-radius: 8px;
+    opacity: 0px;
+    cursor: pointer;
+}

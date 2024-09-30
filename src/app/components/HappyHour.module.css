@@ -1,0 +1,42 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    height: 72px;
+    width: 100%;
+    background: #FEEBCB;
+}
+
+.colorBar{
+    height: 100%;
+    width: 5px;
+    background: #dd6b20;
+    margin-right: 10px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 15px;
+}
+
+.title{
+    font-family: 'Inter';
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
+
+.content{
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+    color: black;
+}
